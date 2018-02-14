@@ -2,7 +2,6 @@ package GIT.GITTest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class BaseClass {
@@ -17,7 +16,7 @@ public class BaseClass {
 	        driver = new ChromeDriver();
 	        driver.get(URL);
 		    
-	        System.out.println("===One line added===");
+	        System.out.println("|=One line added=|");
 	}
 
 }
